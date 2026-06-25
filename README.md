@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="branding/default-icon.png" width="120" alt="Luteab" />
+  <img src="icon.png" width="120" alt="Luteab" />
 </p>
 
 <h1 align="center">luteab-assets</h1>
