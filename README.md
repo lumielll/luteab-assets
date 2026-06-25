@@ -1,31 +1,35 @@
-# luteab-assets
+<p align="center">
+  <img src="branding/default-icon.png" width="120" alt="Luteab" />
+</p>
 
-Image assets for the Luteab Macro (a Sol's RNG biome tracker), re-hosted here so the
-macro doesn't depend on third-party hosts that could disappear.
+<h1 align="center">luteab-assets</h1>
 
-## Layout
+<p align="center">Images for the Luteab Macro, hosted here so the macro never relies on someone else's links staying online.</p>
 
-- `biome_thumbnails/` — biome embed thumbnails, named by biome (`GLITCHED.png`, `SAND STORM.png`, ...).
-- `merchants/` — merchant icons (jester, mari, rin, eden, eggdoggo).
-- `branding/` — the default webhook icon/avatar.
-- `credits/` — contributor avatars.
+> [!NOTE]
+> Luteab isn't finished or released yet. This repo is just the image assets it loads. Things may move around until the first release.
+
+## What's in here
+
+- `biome_thumbnails/` has one image per biome (`GLITCHED.png`, `CYBERSPACE.png`, `SAND STORM.png`, and so on), plus a `biome_placeholder.png`.
+- `merchants/` has the merchant icons: jester, rin, mari, and eden.
+- `branding/` holds the default webhook icon.
+- `credits/` has contributor avatars.
 
 ## Using an image
 
-Every file has a raw URL you can paste into Discord, the Servers tab, or anywhere a
-public image URL is needed:
+Every file has a direct link you can paste into Discord or the macro's Servers tab:
 
 ```
 https://raw.githubusercontent.com/lumielll/luteab-assets/main/<path>
 ```
 
-Example:
+For example, the GLITCHED thumbnail:
 
 ```
 https://raw.githubusercontent.com/lumielll/luteab-assets/main/biome_thumbnails/GLITCHED.png
 ```
 
-## Attribution
+## Credits
 
-Biome thumbnails came from maxstellar's `biome_thumb`, `xVapure/Noteab-Macro`, and
-`vexthecoder/OysterDetector`. DREAMSPACE uses Luteab's own image.
+The biome thumbnails came from maxstellar's `biome_thumb`, `xVapure/Noteab-Macro`, and `vexthecoder/OysterDetector`. DREAMSPACE uses Luteab's own image.
